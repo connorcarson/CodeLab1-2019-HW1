@@ -28,7 +28,7 @@ public class GameOverManager : MonoBehaviour
 	void Update () {
 		if (LevelManager.TimeLeft <= 0) //if the timer runs out
 		{
-			GameOver();
+			GameOver(); //game over
 		}
 	}
 
